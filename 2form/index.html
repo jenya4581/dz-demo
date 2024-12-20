@@ -3,32 +3,37 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Зарегистрируйте компанию">
     <title>Форма регистрации</title>
 </head>
 
 <body>
-    <form action="">
-        <h1>Регистрация</h1>
-        <div>Уже есть аккаунт?
-            <a href="#">Войти</a>
-        </div>
+    <main>
         <div>
-            <input type="text" name="namecomp" value="Мой компания">
+            <div>
+                <h1>Регистрация</h1>
+                <p>Уже есть аккаунт?<a href="#">Войти</a></p>
+            </div>
+
+            <form action="">
+                <div>
+                    <input type="text" name="namecomp" value="Мой компания">
+                </div>
+                <div>
+                    <input type="text" name="username" placeholder="Имя">
+                    <input type="text" name="lastname" placeholder="Фамилия">
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="E-mail">
+                </div>
+                <button>Зарегистрироваться</button>
+                <div>
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Я прочитал и принимаю <a href="#">Условия использования</a></label>
+                </div>
+            </form>
         </div>
-        <div>
-            <input type="text" name="username" placeholder="Имя">
-            <input type="text" name="lastname" placeholder="Фамилия">
-        </div>
-        <div>
-            <input type="email" name="email" placeholder="E-mail">
-        </div>
-        <button>Зарегистрироваться</button>
-        <div>
-            <input type="checkbox" id="checkbox">
-            <label for="checkbox">Я прочитал и принимаю <a href="#">Условия использования</a></label>
-        </div>
-    </form>
+    </main>
 </body>
 
 </html>

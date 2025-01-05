@@ -1,0 +1,93 @@
+body {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    margin: 0;
+}
+
+header {
+    padding: 80px 0 0 226px;
+}
+
+header a {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    color: #FFFFFF;
+    background-color: #1F293799;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    margin: 14px 0 0 458px;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+article {
+    margin: 41px 367px;
+}
+
+footer {
+    background-color: #121928;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 28px;
+    margin: 43px 0 0 608px;
+}
+
+#autor {
+    margin: 30px 0 0 640px;
+}
+
+.blog {
+    list-style: url('../images/blog.png');
+}
+
+.sectionText {
+    font-size: 14px;
+    line-height: 16.41px;
+    margin: 80px 0 0 630px;
+}
+
+.sectionTextName {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.sectionTextJob {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.downImg {
+    margin: 28px 272px;
+}
+
+.heroTextArticle {
+    font-size: 20px;
+    line-height: 32px;
+}

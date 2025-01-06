@@ -35,7 +35,8 @@ h1 {
     font-size: 24px;
     font-weight: 400;
     line-height: 38px;
-    margin: 14px 0 0 458px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 p {
@@ -47,6 +48,7 @@ p {
 
 article {
     margin: 41px 367px;
+    width: 708px;
 }
 
 footer {
@@ -56,21 +58,26 @@ footer {
 footer p {
     font-size: 16px;
     line-height: 28px;
-    margin: 43px 0 0 608px;
+    width: 50%;
+    margin: 0 auto;
 }
+
 
 #autor {
-    margin: 30px 0 0 640px;
+    width: 50%;
+    margin: 0 auto;
 }
 
-.blog {
-    list-style: url('../images/blog.png');
+#autor img {
+    width: 50px;
+    height: 50px;
 }
 
 .sectionText {
     font-size: 14px;
     line-height: 16.41px;
-    margin: 80px 0 0 630px;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .sectionTextName {
@@ -85,6 +92,8 @@ footer p {
 
 .downImg {
     margin: 28px 272px;
+    width: 896px;
+    height: 594px;
 }
 
 .heroTextArticle {

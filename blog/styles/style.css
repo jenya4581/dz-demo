@@ -1,10 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
-    margin: 0;
 }
 
 header {
-    padding: 80px 0 0 226px;
+    padding: 72px;
 }
 
 header a {
@@ -15,19 +19,36 @@ header a {
     text-decoration: none;
 }
 
+header a img {
+    padding: 6px;
+    background: #4B5563;
+    border-radius: 3px;
+}
+
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+}
+
+li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
 }
 
 input {
-    color: #FFFFFF;
     background-color: #1F293799;
     font-size: 16px;
     font-weight: 400;
     line-height: 18.75px;
-    text-align: left;
+}
+
+.sectionText {
+    color: #ADB1B7;
+    font-size: 14px;
+    line-height: 16.41px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 14px;
 }
 
 h1 {
@@ -37,35 +58,13 @@ h1 {
     line-height: 38px;
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 30px;
 }
-
-p {
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-}
-
-article {
-    margin: 41px 367px;
-    width: 708px;
-}
-
-footer {
-    background-color: #121928;
-}
-
-footer p {
-    font-size: 16px;
-    line-height: 28px;
-    width: 50%;
-    margin: 0 auto;
-}
-
 
 #autor {
     width: 50%;
     margin: 0 auto;
+    margin-bottom: 28px;
 }
 
 #autor img {
@@ -73,30 +72,56 @@ footer p {
     height: 50px;
 }
 
-.sectionText {
-    font-size: 14px;
-    line-height: 16.41px;
-    width: 50%;
-    margin: 0 auto;
-}
-
 .sectionTextName {
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 28px;
 }
 
 .sectionTextJob {
+    color: #ABAFB5;
     font-size: 14px;
     line-height: 28px;
 }
 
-.downImg {
-    margin: 28px 272px;
+.sectionImg {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 69px;
+}
+
+.sectionImg img {
     width: 896px;
     height: 594px;
 }
 
 .heroTextArticle {
+    color: #FFFFFF;
     font-size: 20px;
     line-height: 32px;
+}
+
+article p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 30px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+article p a {
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #121928;
+    margin-top: 103px;
+}
+
+footer p {
+    color: #A0A3A9;
+    font-size: 16px;
+    line-height: 28px;
+    width: 50%;
+    margin: 0 auto;
 }
